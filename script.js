@@ -3,7 +3,7 @@ addTodo = (val) => {
     const template = `<li class="item-list">
     <div class="view">
         <p class="edit">
-        <span class ="marker" onclick="reworkTask(event)"></span>
+        <span class ="marker"></span>
         ${val}
         </p>
     </div>
